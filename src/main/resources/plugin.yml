@@ -1,0 +1,7 @@
+name: ApexFreedomMod
+main: me.totalfreedom.totalfreedommod.TotalFreedomMod
+version: 3.0
+description: This ApexFreedomMod plugin is used for ApexFreedom.
+depend: [Aero, WorldEdit]
+softdepend: [BukkitTelnet, Essentials]
+authors: [Madgeek1450, Prozza, savykilo]

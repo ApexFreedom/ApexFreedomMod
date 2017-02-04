@@ -1,0 +1,268 @@
+## Welcome to the ApexFreedomMod: v3.0 Configeration ##
+
+## Generic server information ##
+server:
+  name: ApexFreedom
+  address: 167.114.29.113
+  motd: '&8| Welcome to ApexFreedom for &8| Minecraft *mcv* &8|'
+  colorful_motd: true
+
+## Ranking (CustomRankManaging) ##
+ranks:
+  founder:
+    - savykilo
+
+## Website's ##
+websites:
+  ban_url: http://apexfreedom.boards.net/
+  permban_url: http://apexfreedom.boards.net/
+
+## Admin configeration ##
+adminlist:
+  clean_threshold_hours: 167
+  console_is_senior: true
+
+## ForceIP
+forceip:
+  enabled: false
+  port: 25141
+  kickmsg: You have been kicked from ApexFreedom please try to reconnect using '167.114.29.113:25141'
+
+
+## Allow and disallow
+allow:
+  fire_place: false
+  fire_spread: false
+  fluid_spread: false
+  lava_place: false
+  lava_damage: false
+  water_place: false
+  tnt_minecarts: false
+  explosions: false
+
+## Blocked Commands
+blocked_commands:
+  - 'n:b:/time:&eFreedom&8 >>&c Error, please use /ptime'
+  - 'n:b:/gamemode:&eFreedom&8 >>&c Error, please use /creative or /survival'
+  - 'n:b:/ban:&eFreedom&8 >>&c Error, please use /gtfo or /tempban'
+  - 'n:b:/pardon:&eFreedom&8 >>&c Error, please use /glist'
+  - 'n:b:/ban-ip:&eFreedom&8 >>&c Error, please use /glist'
+  - 'n:b:/pardon-ip:&eFreedom&8 >>&c Error, please use /glist'
+  - 'n:b:/toggledownfall:&eFreedom&8 >>&c Error, Weather commands are disabled'
+  - 'n:b:/effect:&eFreedom&8 >>&c Error, please use /potion'
+  - 'n:b:/enderchest:&eFreedom&8 >>&c Error, please use /pv'
+  - 'n:b:/spreadplayers:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/execute:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/blockdata:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/clearhistory:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/save-all:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/save-on:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/save-off:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/playsound:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/skinrestorer:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/packet:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/thaw:&eFreedom&8 >>&c Unknown Command'
+  - 'n:b:/pp largeexplode:&eFreedom&8 >>&c You may not use this particle!'
+  - 'n:b:/pp hugeexplosion:&eFreedom&8 >>&c You may not use this particle!'
+  - 'n:b:/pp barrier:&eFreedom&8 >>&c You may not use this particle!'
+  - 'n:b:/setjail:&eFreedom&8 >>&c ding dong'
+  - 'n:b:/tfbanlist:&eFreedom&8 >>&c Use /banlist'
+  - 'n:b:/tfipbanlist:&eFreedom&8 >>&c Use /banlist'
+## Admin Commands
+  - 's:b:/kick:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/socialspy:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/replaceitem:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/kill:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b://generate:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b://:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/superpickaxe:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/brush:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/size:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b://mask:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/mat:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b://butcher:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/scoreboard:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/setspawn:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b://snow:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/tellraw:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/forestgen:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/setidletimeout:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/mail sendall:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/eco reset:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/mask:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/gmask:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/lrbuild:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/defaultgamemode:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/reload:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/title:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/worldborder:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/weather:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/tpall:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/setblock:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/green:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/gamerule:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/togglejail:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/fill:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:b:/flood:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:a:/stop:&eFreedom&8 >>&c This is an Admin Command'
+  - 's:a:/restart:&eFreedom&8 >>&c This is an Admin Command'
+
+## Remove droped items
+auto_wipe: true
+
+## {HackedClient} Nuker removal
+nukemonitor:
+  enabled: true
+  count_break: 100
+  count_place: 40
+  range: 10.0
+
+freecam_trigger_count: 10
+explosive_radius: 4.0
+
+## Show commands in logs
+preprocess_log: true
+
+## Disabled
+disable:
+  night: true
+  weather: true
+
+
+## Misc
+landmines_enabled: false
+mp44_enabled: false
+tossmob_enabled: false
+
+## Moblimiter
+moblimiter:
+  enabled: true
+  max: 50
+  disable:
+    dragon: true
+    ghast: true
+    slime: true
+    giant: true
+
+## Flatlands
+flatlands:
+  generate: true
+
+  ## Flatlands generation parameters - Uses CleanroomGenerator syntax - http://dev.bukkit.org/server-mods/cleanroomgenerator/
+  generate_params: 16,stone,32,dirt,1,grass
+
+## Admin Mode
+admin_only_mode: false
+
+## Protected Areas - Protect areas so that only superadmins can directly modify blocks in those areas. WorldEdit and other such plugins might bypass this.
+protectarea:
+  enabled: true
+  auto_protect_spawnpoints: true
+  auto_protect_radius: 25.0
+
+## Host Sender Names - Names that indicate automated services or host-based consoles you want to block from using some commands.
+host_sender_names:
+  - rcon
+  - remotebukkit
+
+## Announcer
+announcer:
+  enabled: true
+  interval: 200
+  prefix: '&8[&3Apex&cFreedom&8]&e '
+
+  announcements:
+    - 'Welcome to ApexFreedom'
+    - 'If you are not OP, be sure to ask!'
+    - 'Somebody breaking the rules? Report it! /report <user> <reason>'
+    - 'Griefing is not allowed!'
+    - 'Hacked clients are allowed!'
+    - 'Interested in becoming admin? Do "/ai" for more information!'
+    - 'You may view all online administrators via "/list -a"'
+    - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
+    - 'savykilo is the Lead-Developer of apexFreedom and the Founder.'
+    - 'Server lagging?  Check the lag via "/tps"'
+    - 'You are allowed to record and stream videos.'
+    - 'Player vs player while in creative or god mode it forbidden!'
+    - 'Spawn killing is forbidden!'
+    - 'Invisible potions are allowed!'
+    - 'Serial griefing and trolling will result in a permanent ban!'
+    - 'This server accepts donations but only donate to the buycraft store'
+    - 'Racism, nazism, and sexism are strictly forbidden!'
+
+## Famous players - cannot be banned by username
+famous_players:
+  - honeydew
+  - xephos
+  - captainsparklez
+  - truemu
+  - kiershar
+  - fvdisco
+  - sethbling
+  - notch
+  - jeb_
+  - gamechap
+  - bertiechap
+  - vechs
+  - antvenom
+  - chimneyswift
+  - deadmau5
+  - etho
+  - ethoslab
+  - skydoesminecraft
+  - skythekidrs
+  - tobyturner
+  - xxslyfoxhoundxx
+  - paulsoaresjr
+  - sips_
+  - deadlox
+  - xxslyxx
+  - jeromeasf
+  - dinnerbone
+  - grumm
+  - grum
+  - evilseph
+  - cavemanfilms
+  - herobrine
+  - whiteboy7thst
+  - stampylonghead
+  - stampylongnose
+  - dantdm
+  - gizzy14gazza
+  - furiousdestroyer
+
+## IPs that can not be supered ##
+noadmin_ips:
+  - 
+
+## Pet Protect - Prevent tamed pets from being killed. ##
+petprotect:
+  enabled: true
+
+## Logviewer ##
+logs:
+  url: ''
+  secret: ''
+
+## Mojang service checker ##
+service_checker_url: http://status.mojang.com/check
+
+## HTTPD server
+httpd:
+  enabled: true
+  port: 28966
+  public_folder: ./public_html
+
+## Inactivity Auto-Kick (Requires Essentials) ##
+autokick:
+  enabled: true
+  threshold: 0.9
+  time: 120
+
+## Players with access to the overlord command ##
+overlord_ips:
+  - 176.56.237.227
+  - 192.184.86.138
+  - 107.191.101.27
+  - 178.62.117.94
+  - 141.101.104.243

@@ -1,0 +1,34 @@
+# FreedomMod excludes - Savnith
+/lib
+build.properties
+
+# Netbeans excludes - Savnith
+/nbproject/private
+/dist
+/build
+manifest.mf
+# Now defines that Maven CheckStyle is used
+# nb-configuration.xml
+
+# Eclipse excludes - TheDarkViews
+.project
+.classpath
+/bin
+/.settings
+
+# IntelliJ excludes
+*.iml
+*.ipr
+*.iws
+/.idea
+
+# Maven excludes
+/target
+
+# OS generated files - Savcode
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
